@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class task1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Please enter name  - Alex");
         String name = sc.nextLine();
         System.out.println("Welcome to Java world " + name);
     }
